@@ -4,7 +4,7 @@ import {unixNow} from '../lib/utils';
 import {MineMessageParams, Queries} from '../wrappers/NftGiver';
 
 async function mine() {
-    const walletAddress = Address.parse('YOUR_WALLET_ADDRESS');
+    const walletAddress = Address.parse('0QCjobPLYZ4lCZx2HR4iHuWK6sUAaIZZ-R1eTfjpWoVAfJd_');
     const collectionAddress = Address.parse('EQDk8N7xM5D669LC2YACrseBJtDyFqwtSPCNhRWXU7kjEptX');
 
     // specify endpoint for Testnet
